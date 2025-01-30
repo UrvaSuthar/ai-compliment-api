@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 const cache = new NodeCache({ stdTTL: 60 });
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://ai-compliment-generator-fawn.vercel.app",
   methods: "GET,POST",
   allowedHeaders: "Content-Type",
 };
