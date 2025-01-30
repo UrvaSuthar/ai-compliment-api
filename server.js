@@ -13,7 +13,7 @@ const cache = new NodeCache({ stdTTL: 60 });
 
 const corsOptions = {
   origin: "https://ai-compliment-generator-fawn.vercel.app",
-  methods: "GET,POST",
+  methods: "POST",
   allowedHeaders: "Content-Type",
 };
 app.use(cors(corsOptions));
